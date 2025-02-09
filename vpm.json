@@ -1,19 +1,19 @@
 {
-    "name": "kyre",
+    "name": "Kyure_A's VPM Repository",
     "id": "io.github.kyre.vpm",
     "author": "Kyure_A",
     "url": "https://vpm.kyre.moe/vpm.json",
     "packages": {
-        "jp.kyre.hideInactiveObjects": {
+        "moe.kyre.unixcf": {
             "versions": {
-                "1.0.0" : {
-                    "name": "jp.kyre.hideInactiveObjects",
-                    "version": "1.0.0",
-                    "displayName": "HideInactiveObjects",
-                    "description": "Unity Editor extensions to hide inactive objects on hierarchy.",
+                "1.0.1" : {
+                    "name": "moe.kyre.unixcf",
+                    "version": "1.0.1",
+                    "displayName": "UniXCF",
+                    "description": "UniXCF is xcf importer for Unity. ",
                     "unity": "2022.3",
                     "license": "MIT",
-                    "url" : "https://github.com/Kyure-A/hideInactiveObjects/archive/refs/tags/1.0.0.zip",
+                    "url" : "https://github.com/Kyure-A/unixcf/releases/download/v1.0.1/unixcf.zip",
                     "repo" : "https://vpm.kyre.moe/vpm.json"
                 }
             }
