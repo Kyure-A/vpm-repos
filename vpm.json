@@ -1,8 +1,8 @@
 {
     "name": "Kyure_A",
-    "id": "moe.kyre.vpm",
+    "id": "io.github.kyure-a.vpm",
     "author": "Kyure_A",
-    "url": "https://vpm.kyre.moe/vpm.json",
+    "url": "https://kyure-a.github.io/vpm-repos/vpm.json",
     "packages": {
         "moe.kyre.unixcf": {
             "versions": {
@@ -13,8 +13,11 @@
                     "description": "UniXCF is xcf importer for Unity. ",
                     "unity": "2022.3",
                     "license": "MIT",
-                    "url" : "https://github.com/Kyure-A/unixcf/releases/download/v1.0.1/unixcf.zip",
-                    "repo" : "https://vpm.kyre.moe/vpm.json"
+                    "url" : "https://github.com/Kyure-A/unixcf/releases/download/v1.0.1/unixcf.zip?",
+                    "repo": "https://kyure-a.github.io/vpm-repos/vpm.json",
+                    "legacyFolders" : {
+                        "Assets\\unixcf" : "277d8902695758445a0424b60ff4a652"
+                    }
                 }
             }
         }
