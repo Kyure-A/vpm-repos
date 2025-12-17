@@ -40,6 +40,9 @@
                     "legacyFolders": {
                         "Assets\\unixcf" : "277d8902695758445a0424b60ff4a652"
                     }
+                    "vrc-get": {
+                        "yanked": true
+                    }
                 }
             }
         },
