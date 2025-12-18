@@ -4,6 +4,30 @@
     "author": "Kyure_A",
     "url": "https://kyure-a.github.io/vpm-repos/vpm.json",
     "packages": {
+        "moe.kyre.ttt-xcf-importer": {
+            "versions": {
+                "0.1.0": {
+                    "name": "moe.kyre.ttt-xcf-importer",
+                    "version": "0.1.0",
+                    "displayName": "TTTXcfImporter",
+                    "description": "An experimental package for importing GIMP’s native image format, XCF, in a manner similar to the TexTransTool PSD Importer. ",
+                    "unity": "2022.3",
+                    "license": "MIT",
+                    "url": "https://github.com/Kyure-A/TTT-XcfImporter/releases/download/v0.1.0/TTTXcfImporter-0.1.0.zip?",
+                    "repo": "https://kyure-a.github.io/vpm-repos/vpm.json",
+                    "author": {
+                        "name": "Kyure_A",
+                        "url": "https://github.com/Kyure-A/TTT-XcfImporter"
+                    },
+                    "dependencies": {
+                        "net.rs64.tex-trans-tool": "^1.1.0-beta.7"
+                    },
+                    "vpmDependencies": {
+                        "net.rs64.tex-trans-tool": "^1.1.0-beta.7"
+                    }
+                }
+            }
+        }
         "moe.kyre.avatartools": {
             "versions": {
                 "0.1.0" : {
@@ -13,11 +37,16 @@
                     "description": "Utility collection for kyre's avatar setup workflows",
                     "unity": "2022.3",
                     "license": "MIT",
+                    "url": "https://github.com/Kyure-A/AvatarTools/releases/download/v0.1.0/AvatarTools-0.1.0.zip?",
+                    "repo": "https://kyure-a.github.io/vpm-repos/vpm.json",
                     "author": {
                         "name": "Kyure_A",
                         "url": "https://github.com/Kyure-A/AvatarTools"
                     },
-                    "dependencies": {},
+                    "dependencies": {
+                        "com.vrchat.avatars": ">=3.5.0",
+                        "nadena.dev.modular-avatar": ">=1.10.0"
+                    },
                     "vpmDependencies": {
                         "com.vrchat.avatars": ">=3.5.0",
                         "nadena.dev.modular-avatar": ">=1.10.0"
@@ -55,7 +84,7 @@
                     "description": "Unity Editor extensions to hide inactive objects on hierarchy.",
                     "unity": "2022.3",
                     "license": "MIT",
-                    "url": "https://github.com/Kyure-A/hideInactiveObjects/releases/download/v1.0.2/moe.kyre.hideInactiveObjects-1.0.2.zip",
+                    "url": "https://github.com/Kyure-A/hideInactiveObjects/releases/download/v1.0.2/moe.kyre.hideInactiveObjects-1.0.2.zip?",
                     "repo": "https://kyure-a.github.io/vpm-repos/vpm.json",
                     "legacyFolders": {
                         "Assets\\kyre\\hideInactiveObjects" : "d8f52f9da1d01924089504f127155f50"
